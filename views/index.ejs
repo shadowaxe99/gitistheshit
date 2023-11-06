@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Agent</title>
+</head>
+<body>
+  <h1>GitHub Agent</h1>
+  <form action="/ask" method="post">
+    <label for="userInput">Ask the assistant:</label><br>
+    <input type="text" id="userInput" name="userInput"><br>
+    <input type="submit" value="Ask">
+  </form>
+  <h2>Assistant's response:</h2>
+  <p><%= assistantResponse %></p>
+</body>
+</html>
